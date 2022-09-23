@@ -128,4 +128,15 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- 
+ @media (max-width:768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width:480px) {
+    .col {
+        display: flex;
+        flex-direction: column;
+    }
+}
